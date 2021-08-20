@@ -1,0 +1,35 @@
+---
+title: "EDS 221 Day 10 Comp"
+author: "Wylie Hampson"
+date: "8/20/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(palmerpenguins)
+library(lasagnashark)
+```
+
+```{r}
+ggplot(data = penguins, aes(x = flipper_length_mm, y = body_mass_g)) +
+  geom_point() +
+  theme_bee()
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
